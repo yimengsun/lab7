@@ -13,7 +13,6 @@ function initializePage() {
 }
 
 function clickLikeBtn(){
-	e.preventDefault();
 	ga('create','UA-134921845-1','auto');
 	ga('send','event','signup','click');
 }
